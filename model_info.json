@@ -1,0 +1,12 @@
+{
+  "project": {"name": "gtanoc-project-1", "owner": "gtanoc", "id": 1128769, "deploy_version": 18},
+  "library": {"name": "gtanoc-project-1_inferencing", "version": "1.0.18", "author": "EdgeImpulse Inc."},
+  "model": {
+    "type": "image classification (TFLite, int8 quantized, EON compiled)",
+    "labels": ["helmet", "without_helmet"],
+    "input": {"width": 64, "height": 64, "channels": "RGB", "frame_size": 12288, "datatype": "int8"},
+    "output_datatype": "int8",
+    "tflite_arena_bytes": 90419,
+    "anomaly_detection": false
+  }
+}
