@@ -9,7 +9,6 @@ Hệ thống **nhận diện mũ bảo hiểm** bằng học máy trên thiết 
 - [Nguyên lý hoạt động](#nguyên-lý-hoạt-động)
 - [Yêu cầu](#yêu-cầu)
 - [Hướng dẫn sử dụng](#hướng-dẫn-sử-dụng)
-- [Kết quả](#kết-quả)
 - [Báo cáo](#báo-cáo)
 - [Tác giả](#tác-giả)
 - [Giấy phép](#giấy-phép)
@@ -58,7 +57,7 @@ Thu thập ảnh → Huấn luyện (Edge Impulse) → Xuất thư viện Arduin
 
 **Phần cứng**
 
-- Board **ESP32-S3** kèm camera: `[ghi rõ module, ví dụ ESP32-S3-EYE, XIAO ESP32S3 Sense, ESP32-S3-CAM, ...]`
+- Board **ESP32-S3** 
 - Cáp USB để cấp nguồn và nạp chương trình
 - Webcam (nếu chạy `webcam.py` trên máy tính)
 
@@ -66,7 +65,7 @@ Thu thập ảnh → Huấn luyện (Edge Impulse) → Xuất thư viện Arduin
 
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - Python 3.8 trở lên (để chạy `webcam.py`)
-- Các thư viện Python mà `webcam.py` sử dụng, ví dụ: `[opencv-python, numpy, edge_impulse_linux, ...]`
+- Các thư viện Python mà `webcam.py` sử dụng `opencv-python, numpy, edge_impulse`
 
 > Cập nhật lại hai mục có dấu `[...]` cho đúng với thiết bị và thư viện bạn đã dùng.
 
@@ -116,18 +115,6 @@ python webcam.py
 
 Nhấn `q` (hoặc `Esc`) để thoát, nếu script có hỗ trợ.
 
-## Kết quả
-
-| Chỉ số | Giá trị |
-| --- | --- |
-| Độ chính xác (accuracy) | `[?]%` |
-| Số nhãn | `[?]` (ví dụ: `helmet`, `no_helmet`) |
-| Kích thước mô hình | `[?]` KB |
-| Thời gian suy luận | `[?]` ms |
-
-<!-- Thêm ảnh demo hoặc GIF vào đây -->
-<!-- ![Demo](images/demo.png) -->
-
 ## Báo cáo
 
 Chi tiết về dữ liệu, phương pháp huấn luyện, đánh giá và hạn chế của hệ thống xem tại:
@@ -138,7 +125,3 @@ Chi tiết về dữ liệu, phương pháp huấn luyện, đánh giá và hạ
 ## Tác giả
 
 - **giatan0601** – [GitHub](https://github.com/giatan0601)
-
-## Giấy phép
-
-`[Chọn giấy phép, ví dụ MIT]` – xem tệp `LICENSE` nếu có.
