@@ -11,7 +11,6 @@ Hệ thống **nhận diện mũ bảo hiểm** bằng học máy trên thiết 
 - [Hướng dẫn sử dụng](#hướng-dẫn-sử-dụng)
 - [Báo cáo](#báo-cáo)
 - [Tác giả](#tác-giả)
-- [Giấy phép](#giấy-phép)
 
 ## Giới thiệu
 
